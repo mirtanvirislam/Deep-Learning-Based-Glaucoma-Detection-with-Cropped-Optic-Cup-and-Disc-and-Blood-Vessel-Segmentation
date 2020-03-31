@@ -1,2 +1,3 @@
-# Galucoma Detection with ML & NN
- Thesis Project
+# Glaucoma Detection with ML & NN
+
+Thesis Project
