@@ -267,13 +267,13 @@ Project Link: [Glaucoma Detection Using Machine Learning and Deep Learning metho
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/mirtanvirislam/Glaucoma-Detection-with-ML-NN.svg?style=for-the-badge
 [contributors-url]: https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/mirtanvirislam/Glaucoma-Detection-with-ML-NNe.svg?style=for-the-badge
 [forks-url]: https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/mirtanvirislam/Glaucoma-Detection-with-ML-NN.svg?style=for-the-badge
 [stars-url]: https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/mirtanvirislam/Glaucoma-Detection-with-ML-NN.svg?style=for-the-badge
 [issues-url]: https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/mirtanvirislam/Glaucoma-Detection-with-ML-NN.svg?style=for-the-badge
 [license-url]: https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mir-tanvir-islam/
