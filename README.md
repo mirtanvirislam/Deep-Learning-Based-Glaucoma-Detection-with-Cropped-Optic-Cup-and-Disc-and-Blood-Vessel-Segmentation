@@ -60,7 +60,7 @@
     </li>
     <li><a href="#dataset">Dataset</a></li>
     <li>
-      <a href="#machine-learning-algorithms-and-the-results">Machine learning algorithms and the results</a>
+      <a href="#machine-learning-algorithms-and-their-results">Machine learning algorithms and their results</a>
       <ul>
         <li><a href="#logistic-regression">Logistic Regression</a></li>
         <li><a href="#linear-regression">Linear Regression</a></li>
