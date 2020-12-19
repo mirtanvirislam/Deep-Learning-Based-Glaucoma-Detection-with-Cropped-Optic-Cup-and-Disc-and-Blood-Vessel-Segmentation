@@ -6,7 +6,7 @@
 -->
 
 
-
+(the "REPO NOT FOUND" message will disappear once you make the repository public)
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
