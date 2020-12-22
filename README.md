@@ -71,6 +71,7 @@
     <!--<li><a href="#usage">Usage</a></li>-->
     <!--<li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
+    <li><a href="#supervisors">Supervisors</a></li>
     <li><a href="#contact">Contact</a></li>
     <!--<li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
@@ -233,6 +234,12 @@ The training and validation set scores are given below:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
+<!-- CONTACT -->
+## Supervisors
+
+DR. Riasat Khan - [Profile](http://ece.northsouth.edu/people/riasat-khan/) - riasat.khan@northsouth.edu
+
+Intisar Tahmid Naheen - [Profile](http://ece.northsouth.edu/people/mr-intisar-tahmid-naheen/) - intisar.naheen@northsouth.edu
 
 <!-- CONTACT -->
 ## Contact
