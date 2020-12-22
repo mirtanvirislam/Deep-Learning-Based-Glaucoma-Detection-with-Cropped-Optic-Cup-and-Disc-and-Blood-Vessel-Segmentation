@@ -234,19 +234,23 @@ The training and validation set scores are given below:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-<!-- CONTACT -->
+<!-- SUPERVISORS -->
 ## Supervisors
 
-DR. Riasat Khan - [Profile](http://ece.northsouth.edu/people/riasat-khan/) - riasat.khan@northsouth.edu
+Dr. Riasat Khan - [Profile](http://ece.northsouth.edu/people/riasat-khan/) - riasat.khan@northsouth.edu
 
 Intisar Tahmid Naheen - [Profile](http://ece.northsouth.edu/people/mr-intisar-tahmid-naheen/) - intisar.naheen@northsouth.edu
 
 <!-- CONTACT -->
 ## Contact
 
-Mir Tanvir Islam - tanvir.islam04@northsouth.edu
+Mir Tanvir Islam - [Profile](https://www.linkedin.com/in/mir-tanvir-islam/) - tanvir.islam04@northsouth.edu
 
-Shafin T.Mashfu - shafin.mashfu@northsouth.edu
+Shafin T.Mashfu - [Profile](https://www.linkedin.com/in/smashfu/) - shafin.mashfu@northsouth.edu
+
+Sadman Chowdhury Siam - [Profile](https://www.linkedin.com/in/unavailable/) - sadman.siam@northsouth.edu
+
+Abrar Faisal - [Profile](https://www.linkedin.com/in/unavailable/) - abrar.faisal@northsouth.edu
 
 Project Link: [Glaucoma Detection Using Machine Learning and Deep Learning methods](https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN)
 
