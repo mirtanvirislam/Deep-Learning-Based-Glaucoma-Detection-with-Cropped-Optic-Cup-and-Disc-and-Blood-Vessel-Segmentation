@@ -30,7 +30,7 @@
     <img src="images/image.jpg" alt="" width="541" height="258">
   </a>
 
-  <h1 align="center">Glaucoma Detection Using Machine Learning and Deep Learning methods</h1>
+  <h1 align="center">Deep Learning Based GlaucomaDetection with Cropped Optic Cup andDisc and Blood Vessel Segmentation</h1>
 
   <p align="center">
     A short report of our experiments.
@@ -84,7 +84,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-Glaucoma is a major eye condition that damages the optic nerves within the patient's eye. Although there are many prevalent researches undertaken overseas to diagnose glaucoma, Bangladesh is doing little or none.Therefore, earlier diagnosis of glaucoma will reduce loss of vision. The purpose of this literature is to provide several computational methods for the diagnosis of glaucoma. This paper suggests supervised learning and contrast it with other current glaucoma detection strategies. Photos Of the retinal fundus are taken for glaucoma diagnosis. The Proposed program would take these images and form glaucoma absence/presence decisions by measuring the CDR value in the image and give a prediction using various machine learning techniques and deep learning models.
+Glaucoma is an irreversible neurodegenerative disease, where intraocular hypertension is developed due to the increased aqueous humor and blockage of the drainage system between the iris and cornea. As a result, the optic nerve head, which sends visual stimulus from our eyes to the brain, is damaged, causing visual field loss and ultimately blindness. Glaucoma is considered as the sneak thief of vision because it is difficult to diagnose early, and its regular screening is highly recommended to distinguish the neurological disorder. The detection of glaucoma is costly and time-consuming and not only there always remains a good possibility of human error but also this detection method is dependent upon the availability of the resources (experienced ophthalmologists and expensive instruments). In this work, an automatic glaucoma classification technique has been developed by utilizing multiple deep learning approaches. First, a new private dataset of 634 color fundus images has been collected and annotated by two eye specialists, a pediatric ophthalmologist and a glaucoma and refractive surgeon, from Bangladesh Eye Hospital, Bangladesh. Next, various deep learning models (EfficientNet, MobileNet, DenseNet, and GoogLeNet) have been used to detect glaucoma from fundus images. The model with EfficientNet-b3 architecture achieved the best results with test accuracy, F1-score, and ROC AUC of 0.9652, 0.9512, and 0.9574, respectively, for the cropped optic cup and disc fundus photographs. We also constructed a new dataset by segmenting the blood vessels from retinal fundus images employing a U-net model trained on High-Resolution Fundus Image Database. The MobileNet v3 model trained on this dataset achieved a satisfactory test accuracy of 0.8348 and an F1-score of 0.7957. This impressive result suggests that blood vessel segmentation of fundus images can be utilized as an alternative to detect glaucoma automatically.
 
 ### Software Components
 
