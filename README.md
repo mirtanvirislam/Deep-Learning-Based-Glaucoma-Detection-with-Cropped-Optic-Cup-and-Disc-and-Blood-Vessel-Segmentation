@@ -53,7 +53,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#abstract">Abstract</a>
       <ul>
         <li><a href="#software-components">Software Components</a></li>
       </ul>
@@ -79,8 +79,8 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABSTRACT -->
+## Abstract
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
