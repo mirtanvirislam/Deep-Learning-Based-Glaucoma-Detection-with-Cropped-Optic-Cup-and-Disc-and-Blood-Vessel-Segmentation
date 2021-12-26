@@ -54,11 +54,15 @@
   <ol>
     <li>
       <a href="#abstract">Abstract</a>
-      <ul>
+<!--       <ul>
         <li><a href="#software-components">Software Components</a></li>
-      </ul>
+      </ul> -->
     </li>
     <li><a href="#dataset">Dataset</a></li>
+ <ul>
+  <li><a href="#dataset-1">Dataset-1</a></li>
+  <li><a href="#dataset-2">Dataset-2</a></li>
+</ul>
     <li>
       <a href="#machine-learning-algorithms-and-their-results">Machine learning algorithms and their results</a>
       <ul>
@@ -86,18 +90,28 @@
 
 Glaucoma is an irreversible neurodegenerative disease, where intraocular hypertension is developed due to the increased aqueous humor and blockage of the drainage system between the iris and cornea. As a result, the optic nerve head, which sends visual stimulus from our eyes to the brain, is damaged, causing visual field loss and ultimately blindness. Glaucoma is considered as the sneak thief of vision because it is difficult to diagnose early, and its regular screening is highly recommended to distinguish the neurological disorder. The detection of glaucoma is costly and time-consuming and not only there always remains a good possibility of human error but also this detection method is dependent upon the availability of the resources (experienced ophthalmologists and expensive instruments). In this work, an automatic glaucoma classification technique has been developed by utilizing multiple deep learning approaches. First, a new private dataset of 634 color fundus images has been collected and annotated by two eye specialists, a pediatric ophthalmologist and a glaucoma and refractive surgeon, from Bangladesh Eye Hospital, Bangladesh. Next, various deep learning models (EfficientNet, MobileNet, DenseNet, and GoogLeNet) have been used to detect glaucoma from fundus images. The model with EfficientNet-b3 architecture achieved the best results with test accuracy, F1-score, and ROC AUC of 0.9652, 0.9512, and 0.9574, respectively, for the cropped optic cup and disc fundus photographs. We also constructed a new dataset by segmenting the blood vessels from retinal fundus images employing a U-net model trained on High-Resolution Fundus Image Database. The MobileNet v3 model trained on this dataset achieved a satisfactory test accuracy of 0.8348 and an F1-score of 0.7957. This impressive result suggests that blood vessel segmentation of fundus images can be utilized as an alternative to detect glaucoma automatically.
 
-### Software Components
+<!-- ### Software Components
 
 Some of the frameworks and libraries used for this project are listed below:
 * [PyTorch](https://pytorch.org/)
 * [Pandas](https://pandas.pydata.org/)
-* [Seaborn](https://seaborn.pydata.org/)
+* [Seaborn](https://seaborn.pydata.org/) -->
 
 
 <!-- Dataset -->
 ## Dataset
 
-I've deliberately kept this section empty. I'll update it after discussion. Our dataset contains miscellaneous data.
+A significant contribution of this work is to present unique retinal images from a specialized hospital of all the ocular diseases located in Dhaka, Bangladesh, Bangladesh Eye Hospital (BEH). The color fundus images were taken by a Topcon Retinal Camera TRC-50DX, which is considered the gold standard for retinal imaging. The retinal images were obtained over a timespan of two years, i.e., from 2019 to 2020, and from various Bangladeshi patients aged between 35 to 80. The diagnosis of glaucoma in the optic nerve head (ONH) was performed by two ocular disease professionals, a pediatric ophthalmologist and a glaucoma and refractive surgeon. Finally, the obtained dataset contains 463 normal (nonglaucoma) and 171 glaucoma color fundus images.
+
+Two different models were prepared for this work by in-corporating color fundus samples from Bangladesh Eye Hos-pital (BEH) dataset and the open-source ACRIMA dataset,which consists of 705 ocular fundus photographs. Theinformation of these constructed combined datasets used inthis work has been described in the subsequent paragraphs.
+
+### Dataset-1
+
+Dataset-1 comprises cropped fundus images from the BEH dataset and ACRIMA dataset. The fundus images are cropped to contain the cup and disc portion of the entire color fundus photographs. We used an online tool, "BIRME" to crop the fundus images in large batches. This online tool facilitates us to crop and resize bulk fundus images efficiently. Images were cropped $300 \times 300$ pixels in terms of height and width. The cup and disc are placed in the middle, and the CDR ratio is set to 1:1. Dataset-1 consists of 210 glaucoma samples (69 samples from the BEH dataset and 141 samples from the ACRIMA dataset) and 369 normal samples (319 and 50 samples from the BEH and ACRIMA dataset, respectively).
+
+### Dataset-2
+
+Dataset-2 is an updated version of Dataset-1, constituting cropped and blood vessel segmented fundus images from the BEH dataset and ACRIMA dataset. The fundus images are cropped to contain the cup and disc portion of the fundus image. Dataset-2 comprises 210 glaucoma samples (69 samples from the BEH dataset and 141 samples from ACRIMA dataset) and 369 normal samples (319 samples from BEH and 50 samples from ACRIMA dataset). The samples in Dataset-2 were blood vessel segmented fundus images using a U-net model that was trained on a dataset of High-Resolution Fundus (HRF) Image Database.
 
 <!-- GETTING STARTED -->
 ## Machine learning algorithms and their results
