@@ -64,7 +64,7 @@
   <li><a href="#dataset-2">Dataset-2</a></li>
 </ul>
     <li><a href="#data-preprocessing">Data Preprocessing</a></li>
-    <li><a href="#results-and-discussions">Results & Discussions</a></li>
+    <li><a href="#methodology">Methodology</a></li>
     <!--<li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
     <li><a href="#supervisors">Supervisors</a></li>
@@ -111,7 +111,7 @@ Dataset-2 is an updated version of Dataset-1, constituting cropped and blood ves
 In this research, the datasets were preprocessed with different conventional augmentation techniques. Dataset-1 was preprocessed with various augmentation techniques to increase the dataset size and gain balance and variability in the dataset. Brightness and contrast augmentation is essential as there was a deviation in the saturation, contrast, and color temperature among the fundus images. The dataset contains fundus images from both the left and right eye, which differentiates the orientation of the blood vessel. Random horizontal flip was used to reduce the influence of left/right distinction. Additionally, random rotation was applied to augment the fundus images, so it is less susceptible to the orientation of the cup, disc, and blood vessels.
 
 
-## Results and Discussions
+## Methodology
 
 In this work, two distinct datasets (Datasets 1 and 2) have been created from the cropped optic cup and disc and blood vessel segmented color fundus images of the private BEH and public ACRIMA databases. U-net, the robust CNN architecture, has been utilized to construct the blood vessel segmented dataset. Finally, a wide range of CNN approaches, e.g., MobileNet, EfficientNet, DenseNet, and GoogLeNet, have been used to classify the images into two classes.
 
