@@ -113,6 +113,23 @@ In this research, the datasets were preprocessed with different conventional aug
 
 ## Results and Discussions
 
+In this work, two distinct datasets (Datasets 1 and 2) have been created from the cropped optic cup and disc and blood vessel segmented color fundus images of the private BEH and public ACRIMA databases. U-net, the robust CNN architecture, has been utilized to construct the blood vessel segmented dataset. Finally, a wide range of CNN approaches, e.g., MobileNet, EfficientNet, DenseNet, and GoogLeNet, have been used to classify the images into two classes.
+
+The following hyper-parameters were used for training all the models on Datasets - 1 and 2, which have been demonstrated in Table below. For training the models on Datasets - 1 and 2, Adam optimizer with the parameters mentioned above in Table \ref{tab:table5} was used, and cross-entropy loss function was used as the loss function.
+
+
+|      Parameter      | Value |
+|:-------------------:|:-----:|
+| Batch size          | 13    |
+| Learning rate       | 0.001 |
+| Learning rate decay | 0.96  |
+| Batch normalization | True  |
+
+
+In Dataset - 1 and Dataset - 2, the full-size fundus images were cropped to only the cup and disc portion. Initial attempts to train different neural network architectures on full-size fundus images were unsatisfactory. Doing so would result in the model over-fitting to the training dataset and poor accuracy in the test dataset. According to ophthalmologists and other research papers, it is possible to detect whether glaucoma is present from the cup and disc segmentation of the fundus image. Training different neural network architectures on the cropped fundus images proved to be satisfactory in diagnosing glaucoma.
+
+Finally, to validate the efficiency of the proposed system of automatic glaucoma detection, various performance metrics are evaluated, e.g., confusion matrix, validation accuracy graph, precision, recall, F1-score, TPR vs. FPR graph, train/validation/test accuracy, ROC AUC, etc. The mentioned metrics are extensively used to evaluate and assess computer vision and deep learning-based classification problems.
+
 
 <!-- GETTING STARTED -->
 ## Machine learning algorithms and their results
