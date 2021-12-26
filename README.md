@@ -63,6 +63,7 @@
   <li><a href="#dataset-1">Dataset-1</a></li>
   <li><a href="#dataset-2">Dataset-2</a></li>
 </ul>
+    <li><a href="#data-preprocessing">Dataset</a></li>
     <li>
       <a href="#machine-learning-algorithms-and-their-results">Machine learning algorithms and their results</a>
       <ul>
@@ -112,6 +113,11 @@ Dataset-1 comprises cropped fundus images from the BEH dataset and ACRIMA datase
 ### Dataset-2
 
 Dataset-2 is an updated version of Dataset-1, constituting cropped and blood vessel segmented fundus images from the BEH dataset and ACRIMA dataset. The fundus images are cropped to contain the cup and disc portion of the fundus image. Dataset-2 comprises 210 glaucoma samples (69 samples from the BEH dataset and 141 samples from ACRIMA dataset) and 369 normal samples (319 samples from BEH and 50 samples from ACRIMA dataset). The samples in Dataset-2 were blood vessel segmented fundus images using a U-net model that was trained on a dataset of High-Resolution Fundus (HRF) Image Database.
+
+
+## Data Preprocessing
+
+In this research, the datasets were preprocessed with different conventional augmentation techniques. Dataset-1 was preprocessed with various augmentation techniques to increase the dataset size and gain balance and variability in the dataset. Brightness and contrast augmentation is essential as there was a deviation in the saturation, contrast, and color temperature among the fundus images. The dataset contains fundus images from both the left and right eye, which differentiates the orientation of the blood vessel. Random horizontal flip was used to reduce the influence of left/right distinction. Additionally, random rotation was applied to augment the fundus images, so it is less susceptible to the orientation of the cup, disc, and blood vessels.
 
 <!-- GETTING STARTED -->
 ## Machine learning algorithms and their results
