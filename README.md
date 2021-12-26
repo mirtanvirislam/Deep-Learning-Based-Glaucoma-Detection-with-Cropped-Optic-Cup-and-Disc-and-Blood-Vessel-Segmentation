@@ -64,7 +64,7 @@
   <li><a href="#dataset-2">Dataset-2</a></li>
 </ul>
     <li><a href="#data-preprocessing">Data Preprocessing</a></li>
-    <li><a href="#results-&-discussions">Usage</a></li>
+    <li><a href="#results-and-discussions">Results & Discussions</a></li>
     <!--<li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
     <li><a href="#supervisors">Supervisors</a></li>
