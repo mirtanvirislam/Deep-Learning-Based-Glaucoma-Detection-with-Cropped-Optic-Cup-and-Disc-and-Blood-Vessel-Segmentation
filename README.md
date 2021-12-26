@@ -111,7 +111,7 @@ Dataset-2 is an updated version of Dataset-1, constituting cropped and blood ves
 In this research, the datasets were preprocessed with different conventional augmentation techniques. Dataset-1 was preprocessed with various augmentation techniques to increase the dataset size and gain balance and variability in the dataset. Brightness and contrast augmentation is essential as there was a deviation in the saturation, contrast, and color temperature among the fundus images. The dataset contains fundus images from both the left and right eye, which differentiates the orientation of the blood vessel. Random horizontal flip was used to reduce the influence of left/right distinction. Additionally, random rotation was applied to augment the fundus images, so it is less susceptible to the orientation of the cup, disc, and blood vessels.
 
 
-## Results & Discussions
+## Results and Discussions
 
 
 <!-- GETTING STARTED -->
