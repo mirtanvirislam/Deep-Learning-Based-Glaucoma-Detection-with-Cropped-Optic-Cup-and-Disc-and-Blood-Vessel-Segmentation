@@ -118,12 +118,12 @@ In this work, two distinct datasets (Datasets 1 and 2) have been created from th
 The following hyper-parameters were used for training all the models on Datasets - 1 and 2, which have been demonstrated in Table below. For training the models on Datasets - 1 and 2, Adam optimizer with the parameters mentioned above in Table \ref{tab:table5} was used, and cross-entropy loss function was used as the loss function.
 
 
-|      Parameter      | Value |
-|:-------------------:|:-----:|
-| Batch size          | 13    |
-| Learning rate       | 0.001 |
-| Learning rate decay | 0.96  |
-| Batch normalization | True  |
+                                                                |      Parameter      | Value |
+                                                                |:-------------------:|:-----:|
+                                                                | Batch size          | 13    |
+                                                                | Learning rate       | 0.001 |
+                                                                | Learning rate decay | 0.96  |
+                                                                | Batch normalization | True  |
 
 
 In Dataset - 1 and Dataset - 2, the full-size fundus images were cropped to only the cup and disc portion. Initial attempts to train different neural network architectures on full-size fundus images were unsatisfactory. Doing so would result in the model over-fitting to the training dataset and poor accuracy in the test dataset. According to ophthalmologists and other research papers, it is possible to detect whether glaucoma is present from the cup and disc segmentation of the fundus image. Training different neural network architectures on the cropped fundus images proved to be satisfactory in diagnosing glaucoma.
