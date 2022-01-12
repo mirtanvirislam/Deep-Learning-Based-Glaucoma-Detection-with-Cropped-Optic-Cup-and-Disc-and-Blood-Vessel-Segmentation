@@ -19,7 +19,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 
@@ -33,9 +33,10 @@
   <h1 align="center">Deep Learning Based Glaucoma Detection with Cropped Optic Cup andDisc and Blood Vessel Segmentation</h1>
 
   <p align="center">
-    A short report of our experiments.
+<!--     A short report of our experiments. -->
     <br />
     <a target="_blank" href="https://ieeexplore.ieee.org/document/9664528"><strong>READ THE FULL PUBLISHED PAPER AT IEEE ACCESS»</strong></a>
+    <br />
     <a target="_blank" href="https://github.com/mirtanvirislam/Deep-Learning-Based-Glaucoma-Detection-with-Cropped-Optic-Cup-and-Disc-and-Blood-Vessel-Segmentation/tree/master/Dataset"><strong>VIEW THE DATASET USED IN THIS PAPER»</strong></a>
     <br />
     <br />
@@ -70,7 +71,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#supervisors">Supervisors</a></li>
     <li><a href="#contact">Contact</a></li>
-    <!--<li><a href="#acknowledgements">Acknowledgements</a></li> -->
+    <li><a href="#citation">Citation</a></li>
   </ol>
 </details>
 
@@ -151,7 +152,7 @@ Intisar Tahmid Naheen - [Profile](http://ece.northsouth.edu/people/mr-intisar-ta
 <!-- CONTACT -->
 ## Contact
 
-Mir Tanvir Islam - [Profile](https://www.linkedin.com/in/mir-tanvir-islam/) - tanvir.islam04@northsouth.edu
+Mir Tanvir Islam - [Profile](https://www.linkedin.com/in/mir-tanvir-islam/) - tanvir.islam04@northsouth.edu / mir.tanvir.islam@gmail.com
 
 Shafin T.Mashfu - [Profile](https://www.linkedin.com/in/smashfu/) - shafin.mashfu@northsouth.edu
 
@@ -159,9 +160,14 @@ Sadman Chowdhury Siam - [Profile](https://www.linkedin.com/in/unavailable/) - sa
 
 Abrar Faisal - [Profile](https://www.linkedin.com/in/unavailable/) - abrar.faisal@northsouth.edu
 
-Project Link: [Glaucoma Detection Using Machine Learning and Deep Learning methods](https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN)
+Project Link: [Deep Learning Based Glaucoma Detection with Cropped Optic Cup andDisc and Blood Vessel Segmentation](https://github.com/mirtanvirislam/Deep-Learning-Based-Glaucoma-Detection-with-Cropped-Optic-Cup-and-Disc-and-Blood-Vessel-Segmentation)
 
 
+<!-- CITATION -->
+## Citation
+`
+M. T. Islam, S. T. Mashfu, A. Faisal, S. C. Siam, I. T. Naheen and R. Khan, "Deep Learning-Based Glaucoma Detection With Cropped Optic Cup and Disc and Blood Vessel Segmentation," in IEEE Access, vol. 10, pp. 2828-2841, 2022, doi: 10.1109/ACCESS.2021.3139160.
+`
 
 <!-- ACKNOWLEDGEMENTS -->
 <!--## Acknowledgements
