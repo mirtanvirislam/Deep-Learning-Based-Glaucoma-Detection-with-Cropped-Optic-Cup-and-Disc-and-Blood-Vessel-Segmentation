@@ -30,12 +30,12 @@
     <img src="images/image.jpg" alt="" width="541" height="258">
   </a>
 
-  <h1 align="center">Deep Learning Based GlaucomaDetection with Cropped Optic Cup andDisc and Blood Vessel Segmentation</h1>
+  <h1 align="center">Deep Learning Based Glaucoma Detection with Cropped Optic Cup andDisc and Blood Vessel Segmentation</h1>
 
   <p align="center">
     A short report of our experiments.
     <br />
-    <a href="https://ieeexplore.ieee.org/document/9664528?source=authoralert"><strong>Read the full published conference paper at IEEE Access»</strong></a>
+    <a href="https://ieeexplore.ieee.org/document/9664528?source=authoralert"><strong>READ THE FULL PUBLISHED PAPER AT IEEE ACCESS»</strong></a>
     <br />
     <br />
  <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
