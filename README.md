@@ -35,7 +35,8 @@
   <p align="center">
     A short report of our experiments.
     <br />
-    <a href="https://ieeexplore.ieee.org/document/9664528?source=authoralert"><strong>READ THE FULL PUBLISHED PAPER AT IEEE ACCESS»</strong></a>
+    <a target="_blank" href="https://ieeexplore.ieee.org/document/9664528"><strong>READ THE FULL PUBLISHED PAPER AT IEEE ACCESS»</strong></a>
+    <a target="_blank" href="https://github.com/mirtanvirislam/Deep-Learning-Based-Glaucoma-Detection-with-Cropped-Optic-Cup-and-Disc-and-Blood-Vessel-Segmentation/tree/master/Dataset"><strong>VIEW THE DATASET USED IN THIS PAPER»</strong></a>
     <br />
     <br />
  <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
