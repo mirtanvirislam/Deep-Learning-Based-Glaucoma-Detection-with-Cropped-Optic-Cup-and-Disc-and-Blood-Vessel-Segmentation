@@ -6,7 +6,7 @@
 -->
 
 
-(the "REPO NOT FOUND" message will disappear once you make the repository public)
+<!-- (the "REPO NOT FOUND" message will disappear once you make the repository public) -->
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -35,7 +35,7 @@
   <p align="center">
     A short report of our experiments.
     <br />
-    <a href="https://github.com/mirtanvirislam/Glaucoma-Detection-with-ML-NN"><strong>Read the full published conference paper»</strong></a>
+    <a href="https://ieeexplore.ieee.org/document/9664528?source=authoralert"><strong>Read the full published conference paper at IEEE Access»</strong></a>
     <br />
     <br />
  <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
