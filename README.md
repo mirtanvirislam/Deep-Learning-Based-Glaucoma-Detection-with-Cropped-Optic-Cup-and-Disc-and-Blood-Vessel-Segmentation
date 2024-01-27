@@ -152,7 +152,7 @@ Intisar Tahmid Naheen - [Profile](http://ece.northsouth.edu/people/mr-intisar-ta
 <!-- CONTACT -->
 ## Contact
 
-Mir Tanvir Islam - [Profile](https://www.linkedin.com/in/mirtanvirislam/) - tanvir.islam04@northsouth.edu / mir.tanvir.islam@gmail.com
+Mir Tanvir Islam - [Profile](https://www.linkedin.com/in/mirtanvirislam/) - mir.tanvir.islam@gmail.com
 
 Shafin T.Mashfu - [Profile](https://www.linkedin.com/in/smashfu/) - shafin.mashfu@northsouth.edu
 
