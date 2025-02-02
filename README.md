@@ -139,7 +139,7 @@ Finally, to validate the efficiency of the proposed system of automatic glaucoma
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the CC BY-NC 4.0 License. See `LICENSE` for more information.
 
 
 <!-- SUPERVISORS -->
